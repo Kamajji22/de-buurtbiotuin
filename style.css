@@ -1,5 +1,8 @@
 * {
     margin: 0%;
+}
+
+header, body {
     background-color: rgb(78, 119, 15);
 }
 
@@ -20,12 +23,16 @@ nav {
   
 img {
     border-radius: 30px;
-    background-position: left top;
+    background-position:top;
     background-repeat: repeat;
     padding: 4%;
-    width: 275px;
-    height: 175px;
-    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+article img {
+    background-color:hwb(56 72% 1%);
+
 }
 
 p {
@@ -66,3 +73,37 @@ p {
     margin-left: 21%;
     margin-top: 5%;
   }
+
+  footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center  ;
+    color: red;
+    font: bolder;
+    float: left;
+  }
+
+main img {
+    margin-left: 10%;   
+    background-color: hwb(56 72% 1%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+
+h2 {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hwb(56 72% 1%);
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ul {
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hwb(56 72% 1%);
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 6%;
+}
